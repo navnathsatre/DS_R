@@ -15,7 +15,6 @@ boxplot(airquality[,1:4],main="multuple")
 #margin of the grid(mar)
 #no of rows and columns(mfrow)
 #whether a border is to be included(bty)
-#
 par(mfrow=c(3,3),mar=c(2,5,2,1),las=0,bty="o")
 plot(airquality$Ozone)
 plot(airquality$Ozone,airquality$Wind)
