@@ -37,3 +37,9 @@ library(xlsx)
 df_csv<-read.csv("F:/R")
 df<-data.frame(x=1:3,y=c("a","b","c"),z=2:4)
 
+#for browsing any URL
+install.packages("RCurl")   
+library(RCurl)
+data2<-getURL("https://elearning.excelr.com")
+browseURL("https://elearning.excelr.com")
+
