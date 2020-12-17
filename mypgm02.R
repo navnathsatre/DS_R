@@ -1,7 +1,5 @@
 getwd()
-
 vec1<-c(1,2,3,4,5,6)
-
 vec1
 vec1[4]<-50
 vec1
@@ -35,10 +33,7 @@ df[c(1,3),c(1,2)]
 df[1,]
 df[c(1,3),]
 update.packages()
-
 library(xlsx)
 df_csv<-read.csv("F:/R")
-
-
 df<-data.frame(x=1:3,y=c("a","b","c"),z=2:4)
 
